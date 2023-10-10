@@ -1,38 +1,54 @@
 {
-  "name": "movix",
+  "name": "gatsby-starter-default",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
-  },
+  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "version": "0.1.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "@reduxjs/toolkit": "^1.9.1",
-    "axios": "^1.2.2",
-    "dayjs": "^1.11.7",
-    "react": "^18.2.0",
-    "react-circular-progressbar": "^2.1.0",
-    "react-dom": "^18.2.0",
-    "react-icons": "^4.7.1",
-    "react-infinite-scroll-component": "^6.1.0",
-    "react-lazy-load-image-component": "^1.5.6",
-    "react-player": "^2.11.0",
-    "react-redux": "^8.0.5",
-    "react-router-dom": "^6.6.2",
-    "react-select": "^5.7.0",
-    "sass": "^1.57.1"
-},
+    "@emotion/core": "^10.0.21",
+    "@emotion/styled": "^10.0.17",
+    "gatsby": "^2.19.12",
+    "gatsby-image": "^2.2.40",
+    "gatsby-plugin-emotion": "^4.1.22",
+    "gatsby-plugin-manifest": "^2.2.41",
+    "gatsby-plugin-offline": "^3.0.34",
+    "gatsby-plugin-react-helmet": "^3.1.22",
+    "gatsby-plugin-react-svg": "^2.1.2",
+    "gatsby-plugin-sharp": "^2.4.5",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
+    "gatsby-source-filesystem": "^2.1.48",
+    "gatsby-source-instagram": "^0.5.1",
+    "gatsby-source-prismic": "^2.3.0-alpha.3",
+    "gatsby-transformer-json": "^2.2.26",
+    "gatsby-transformer-remark": "^2.6.50",
+    "gatsby-transformer-sharp": "^2.3.14",
+    "html-to-react": "^1.4.2",
+    "prismic-reactjs": "^1.2.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-helmet": "^5.2.1"
+  },
   "devDependencies": {
-    "@types/react": "^18.2.15",
-    "@types/react-dom": "^18.2.7",
-    "@vitejs/plugin-react": "^4.0.3",
-    "eslint": "^8.45.0",
-    "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.4.3",
-    "vite": "^4.4.5"
+    "prettier": "^1.18.2"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }
